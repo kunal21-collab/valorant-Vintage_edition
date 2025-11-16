@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-/* --- FULL SCREEN SECTION --- */
+
 .agents-section {
   width: 100%;
   height: 100vh;                
@@ -86,7 +86,6 @@
 
 
 
-/* agents heading text */
 .animated-text {
     font-size: 110px;
     background: linear-gradient(
