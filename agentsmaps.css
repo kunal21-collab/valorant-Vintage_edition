@@ -1,0 +1,121 @@
+.navbar{
+    height:80px;
+    background-color: #0A0A12;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/* --- FULL SCREEN SECTION --- */
+.agents-section {
+  width: 100%;
+  height: 100vh;                
+  display: flex;
+  align-items: center;
+  justify-content: center;      
+  background-color: #0A0A0F;    
+  padding: 40px 0;
+}
+
+.agents {
+  width: 70%;                  
+  height: 60vh;                 
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+}
+
+
+.agents-img {
+  width: 40%;
+  height: 75%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: black;
+  transition: all 0.2s ease-in;
+  box-shadow:
+      0 0 25px goldenrod,
+      0 0 45px darkcyan,
+      0 0 70px lightcoral;
+}
+
+
+ 
+ 
+
+.agents-img:hover{
+   transform: scale(1.1);
+    
+}
+
+
+
+.agent-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.agents-text {
+  width: 50%;
+  color: #f0e6d2;
+}
+
+.agents-text h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.agents-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+/* agents heading text */
+.animated-text {
+    font-size: 110px;
+    background: linear-gradient(
+        90deg,
+        #FF4655,
+        #0F1923,
+        #ECE8E1,
+    
+        darkgoldenrod,
+      
+        lightcyan,
+        cyan,
+       
+        #cccc,
+        #FF4655
+    );
+    background-size: 300%;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: slideColors 5s linear infinite;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+@keyframes slideColors {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 300% 50%; }
+}
+.animated-text:hover{
+  font-size: 130px;
+}
