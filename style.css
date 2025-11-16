@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -205,7 +208,7 @@ a:hover{
      
 
 }
-.footer-section{background-color: #0A0A12; 
+#footer-section{background-color: #0A0A12; 
       height: 100px;
       width: 100%;
      
@@ -509,31 +512,4 @@ position: relative;
   line-height: 1.6;
   color: #E5E7EB;
   margin-bottom: 1rem;
-}
-/* agents heading text */
-.animated-text {
-    font-size: 110px;
-    background: linear-gradient(
-        90deg,
-        #FF4655,
-        #0F1923,
-        #ECE8E1,
-        darkgoldenrod,
-        #FF4655
-    );
-    background-size: 300%;
-    font-weight: bold;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: slideColors 5s linear infinite;
-    transition: all;
-    transition-duration: 0.3s;
-}
-
-@keyframes slideColors {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 300% 50%; }
-}
-.animated-text:hover{
-  font-size: 130px;
 }
